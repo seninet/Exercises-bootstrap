@@ -2,21 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Exercises-bootstrap/bootstrap-5.2.0-beta1-dist/css/bootstrap-grid.min.css" />
+    <title>Exercise-Bootstrap</title>
     <style>
         .container {
             margin: auto;
-            margin-top: 50px;
+            margin-top: 150px;
         }
         
         [class*="col"] {
             height: 80px;
-            padding: 10px;
-            margin-bottom: 10px;
+            margin-top: 10px;
             border: 2px solid gray;
             background-color: lightgray;
             text-align: center;
@@ -25,35 +24,29 @@
 </head>
 
 <body>
-
-    <div class="container ">
+    <div class="container">
+        <div class="row ">
+            <div class="col-2">Logo 1/4</div>
+            <div class="col-10">Title 3/4</div>
+        </div>
         <div class="row">
-            <div class=" col-lg-4 col-xs-4 ">
-                Logo 1/4
-            </div>
-            <div class="col-lg-8 col-xs-8 ">
-                Title 3/4
-            </div>
-            <div class="col-lg-12 col-xs-12 ">
-                Hero 1/1
-            </div>
-            <div class="col-lg-4  col-xs-4">
-                Zone 1
-            </div>
-            <div class="col-lg-4 col-xs-4">
-                Zone 2
-            </div>
-            <div class="col-lg-4 col-xs-4">
-                Zone 3
-            </div>
-            <div class="col-lg-6 col-xs-6 ">
-                Zone 4 1/2
-            </div>
-            <div class="col-lg-6 col-xs-6 ">Zone 5 1/2</div>
-            <div class="col-lg-12 col-xs-12 ">Footer</div>
+            <div class="col-12">Hero 1/1</div>
+        </div>
+        <div class="row">
+            <div class="col-4">Zone 1</div>
+            <div class="col-4">Zone 2</div>
+            <div class="col-4">Zone 3</div>
+        </div>
+        <div class="row">
+            <div class="col-6">Zone 4 1/2</div>
+            <div class="col-6">Zone 5 1/2</div>
+        </div>
+        <div class="row">
+            <div class="col-12">Footer</div>
         </div>
     </div>
-    <script src=" /bootstrap-3.3.7-dist/js/bootstrap.js "></script>
+    </div>
+    <script src="/Exercises-bootstrap/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js "></script>
 </body>
 
 </html>
